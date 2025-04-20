@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Codient Labs - View our portfolio of successful web development, custom software, blockchain, and school ERP projects">
+    <meta name="keywords" content="portfolio, projects, web development, custom software, blockchain, SEO, ERP, case studies">
+    <title>Our Portfolio | CodientLabs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3010b1eaf1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>CodientLabs</h1>
+                    </a>
+                </div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="cta-button"><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="page-header">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="animate-text">Our Portfolio</h1>
+                    <p class="animate-text delay-1">Showcasing our best work and success stories</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="portfolio-intro">
+        <div class="container">
+            <div class="intro-content">
+                <h2>Our Recent Projects</h2>
+                <p>At Codient Labs, we take pride in delivering high-quality solutions that meet our clients' unique needs. Browse through our portfolio to see some of our most successful projects and discover how we've helped businesses across various industries achieve their digital goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="software">Custom Software</button>
+                <button class="filter-btn" data-filter="blockchain">Blockchain</button>
+                <button class="filter-btn" data-filter="erp">School ERP</button>
+                <button class="filter-btn" data-filter="seo">SEO</button>
+            </div>
+
+            <div class="portfolio-items">
+                <!-- Web Development Projects -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio1.png" alt="E-commerce Website">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Sahu Metals E-commerce Platform</h3>
+                                <p>A responsive e-commerce website</p>
+                                <a href="#" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!--                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/web-project-2.jpg" alt="Real Estate Platform">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>HomeFindr Real Estate Platform</h3>
+                                <p>A comprehensive property listing website with advanced search, virtual tours, and agent dashboard</p>
+                                <a href="#" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Custom Software Projects 
+                <div class="portfolio-item" data-category="software">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/software-project-1.jpg" alt="Inventory Management System">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>InventoryPro Management System</h3>
+                                <p>A customized inventory tracking solution for a manufacturing company with barcode scanning and real-time analytics</p>
+                                <a href="#" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="software">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/software-project-2.jpg" alt="Healthcare Management System">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>MediTrack Healthcare System</h3>
+                                <p>An integrated patient management system for a healthcare provider with appointment scheduling and electronic health records</p>
+                                <a href="#" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blockchain Projects 
+                <div class="portfolio-item" data-category="blockchain">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/blockchain-project-1.jpg" alt="Supply Chain Tracking">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>SupplyChain Tracker</h3>
+                                <p>A blockchain-based solution for tracking product authenticity and supply chain transparency for a food production company</p>
+                                <a href="#" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="blockchain">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/blockchain-project-2.jpg" alt="Cryptocurrency Exchange">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>CryptoTrader Exchange</h3>
+                                <p>A secure cryptocurrency exchange platform with multi-wallet support and advanced trading features</p>
+                                <a href="#" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                                              -->
+
+                <!-- School ERP Projects 
+                <div class="portfolio-item" data-category="erp">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/erp-project-1.jpg" alt="School Management System">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>EduManage School System</h3>
+                                <p>A comprehensive school management system implemented for a K-12 educational institution with 2000+ students</p>
+                                <a href="#" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="erp">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/erp-project-2.jpg" alt="University Management System">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>UniPortal University System</h3>
+                                <p>A campus-wide management system for a university with integrated admissions, academic records, and financial management</p>
+                                <a href="#" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEO Projects 
+                <div class="portfolio-item" data-category="seo">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/seo-project-1.jpg" alt="E-commerce SEO">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>FashionRetail SEO Campaign</h3>
+                                <p>Comprehensive SEO strategy that increased organic traffic by 145% and conversions by 83% for an online fashion retailer</p>
+                                <a href="#" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="seo">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/seo-project-2.jpg" alt="Local Business SEO">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Local Business SEO Package</h3>
+                                <p>Local SEO optimization for a chain of restaurants, resulting in top Google Maps rankings and 200% increase in website traffic</p>
+                                <a href="#" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>  -->
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-heading">
+                <h2>What Our Clients Say</h2>
+                <p>Voices from Indian small businesses that trusted our solutions</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Codient Labs developed a custom billing and inventory system for our kirana store. It has
+                            streamlined our operations and saved us hours every day!"</p>
+                        <div class="client-info">
+                            <h4>Rahul Verma</h4>
+                            <p>Owner, Verma Kirana Store, Lucknow</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The e-commerce website built for my boutique was just what I needed. With digital payments
+                            and order tracking, our customer experience has drastically improved."</p>
+                        <div class="client-info">
+                            <h4>Neha Agrawal</h4>
+                            <p>Founder, Fashion Finds, Jaipur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Our agri-tech startup benefited immensely from Codient Labs' blockchain integration. The
+                            transparency and traceability features gave us a competitive edge."</p>
+                        <div class="client-info">
+                            <h4>Arjun Mehta</h4>
+                            <p>CTO, KrishiTech Bharat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-button"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="next-button"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's transform your ideas into reality. Contact us today to discuss your project requirements.</p>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <h2>Codient Labs</h2>
+                    </div>
+                    <p>Innovative IT solutions for modern businesses. Transforming ideas into powerful digital experiences.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="services.html#web-development">Web Development</a></li>
+                        <li><a href="services.html#custom-software">Custom Software</a></li>
+                        <li><a href="services.html#blockchain">Blockchain Solutions</a></li>
+                        <li><a href="services.html#seo">SEO Optimization</a></li>
+                        <li><a href="services.html#school-erp">School ERP Software</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Park, Silicon Valley, CA 94043</li>
+                        <li><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@codientlabs.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Codient Labs. All Rights Reserved.</p>
+                <div class="legal-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
